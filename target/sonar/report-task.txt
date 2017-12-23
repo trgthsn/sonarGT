@@ -1,0 +1,6 @@
+projectKey=sonardenemeleri:sonar
+serverUrl=http://localhost:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9000/dashboard/index/sonardenemeleri:sonar
+ceTaskId=AWCDimhLLjQ9BoDqVW3V
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWCDimhLLjQ9BoDqVW3V
