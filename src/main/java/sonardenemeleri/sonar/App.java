@@ -10,7 +10,7 @@ public class App
     {final int deneme;
 	int target = -5;
 	int num = 3;
-
+final int deneme2;
 	target =- num;  // Noncompliant; target = -3. Is that really what's meant?
 	target =+ num; // Noncompliant; target = 3
     	
