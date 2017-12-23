@@ -22,4 +22,16 @@ BigDecimal bd2 = new BigDecimal(1.1); // Noncompliant; same result
 
         System.out.println( "Hello World!" );
     }
+
+void test_divide() {
+  int z = 0;
+  if (unknown()) {
+    // ..
+    z = 3;
+  } else {
+    // ..
+  }
+  z = 1 / z; // Noncompliant, possible division by zero
+}
+
 }
