@@ -19,7 +19,10 @@ double d = 1.1;
 BigDecimal bd1 = new BigDecimal(d); // Noncompliant; see comment above
 BigDecimal bd2 = new BigDecimal(1.1); // Noncompliant; same result
 
-
+BigDecimal bd3 = new BigDecimal(d); // Noncompliant; see comment above
+BigDecimal bd4 = new BigDecimal(1.1); // Noncompliant; same result
+BigDecimal bd5 = new BigDecimal(1.1); // Noncompliant; same result
+BigDecimal bd6 = new BigDecimal(1.1); // Noncompliant; same result
         System.out.println( "Hello World!" );
     }
 
